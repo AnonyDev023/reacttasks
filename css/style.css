@@ -1,0 +1,267 @@
+.outer-section{
+    padding: 100px 50px;
+}
+.outer-div-container{
+    max-width: 1300px;
+    margin: 0px auto;
+}
+.content-holder-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bg-div{
+    height: 400px;
+    border: 3px solid #1976d2;
+}
+.task1-holder-div{
+    width: 400px;
+}
+.color-inp{
+    width: 100%;
+}
+.inp-holder-div{
+    margin: 10px 0px;
+}
+.task-inp-holder-div{
+
+}
+.todo-holder-div{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.todo-btn-holder-div{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.todo-btn-holder-div > button{
+    width: 45%;
+}
+.tasks-holder-div{
+    margin: 30px 0px;
+    border: 3px solid #1976d2;
+    padding: 20px 0px;
+}
+.no-task-h1{
+    text-align: center;
+}
+.tasks-all-reset-div{
+    display: flex;
+    justify-content: center;
+}
+.task-p{
+    margin: 0px;
+}
+.indi-task-holder-div{
+    margin: 10px;
+    background-color: #ebebeb;
+    padding: 20px;
+    display: flex;
+}
+.task-close-div{
+    margin-left: auto;
+    width: fit-content;
+}
+.time-h1-css{
+    font-size: 70px;
+}
+.tabpane-holder-div{
+    width: 1000px;
+}
+.tabpane-headings-holder{
+    display: flex;
+}
+.tabpane-indi-heading-div{
+    padding: 20px;
+    border: 1px solid #1976d2;
+    width: 33.33%;
+}
+.tabpane-heading-p{
+    margin: 0px;
+    text-align: center;
+}
+.tabpane-data-p{
+    text-align: justify;
+}
+.tabpane-img{
+    width: 100%;
+    height: 400px;
+}
+.active-tab{
+    background-color: #1976d2;
+    color: white
+}
+.task5-posts-holder{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.table-holder-div{
+    max-width: 1200px;
+}
+th{
+    text-align: center !important;
+}
+.css-1wvnaxz-MuiTableCell-root.MuiTableCell-head{
+    background-color: #1976d2;
+}
+.task6-view-detail-form-holder{
+    width: 800px;
+}
+.viewdetail-form-div{
+    margin: 20px 0px;
+}
+.viewdetail-inp{
+    width: 100%;
+}
+.task5-search-holder-div{
+    width: 400px;
+    margin: 20px 0px;
+}
+.css-7mt4h1-MuiInputBase-root .MuiInputBase-input, .css-7mt4h1-MuiInputBase-root{
+    width: 100%;
+}
+.task7-holder-div{
+    width: 1000px;
+}
+.form-img-div{
+    height: 320px;
+    width: 100%;
+    /* background-color: red; */
+    border: 2px solid #1976d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.css-mhc70k-MuiGrid-root{
+    margin: 20px 0px;
+}
+.css-mhc70k-MuiGrid-root>.MuiGrid-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img-inp{
+    display: none;
+}
+.form-btn{
+    width: 100%;
+    padding: 10px 0px;
+}
+.img-form-css{
+    width: 100%;
+    height: 100%;
+}
+.change-img-label-css{
+    position: absolute;
+    z-index: 99999;
+    display: none;
+    color: #1976d2;
+    font-weight: bolder;
+}
+.form-img-div:hover .change-img-label-css{
+    display: block;
+}
+.task8-products-holder{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.css-o69gx8-MuiCardMedia-root{
+    object-fit: initial;
+}
+.product-price-rating-holder-div{
+    display: flex;
+    justify-content: space-between;
+}
+.rating-price-p{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.price-p-holder{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+.css-1oitmrd-MuiButtonBase-root-MuiCardActionArea-root{
+    padding: 20px !important;
+}
+.css-1knaqv7-MuiButtonBase-root-MuiButton-root{
+    width: 100%;
+}
+.css-46bh2p-MuiCardContent-root{
+    padding-bottom: 0px !important;
+}
+.empty-cart-h1{
+    width: 100%;
+    text-align: center;
+}
+.detail-product-p{
+    text-align: justify;
+}
+.css-46bh2p-MuiCardContent-root{
+    text-align: justify;
+}
+.darktheme{
+    background-color: black !important;
+}
+.darkthemetabpane{
+    background-color: black !important;
+    border: 1px solid black !important;
+}
+.tabpanebodertheme{
+    border: 1px solid black !important;
+}
+.darkthemecolor{
+    color: black;
+}
+.lightthemecolor{
+    color: #1976d2;
+}
+.bg-div-dark-border{
+    border-color: black;
+}
+.activenavlink{
+    color: aqua !important;
+}
+
+@media screen and (min-width : 320px) and (max-width: 725px){
+    .task1-holder-div, .todo-holder-div, .tabpane-holder-div, .tabpane-indi-heading-div, .task5-search-holder-div, .task7-holder-div{
+        width: 100%;
+    }
+    .time-h1-css{
+        font-size: 38px;
+    }
+    .tabpane-headings-holder{
+        flex-direction: column;
+    }
+    .css-mhc70k-MuiGrid-root{
+        flex-direction: column;
+    }
+    .css-gj1fbr-MuiGrid-root, .css-1osj8n2-MuiGrid-root, .css-vok43g-MuiGrid-root{
+        max-width: 100%;
+    }
+    .css-mhc70k-MuiGrid-root{
+        width: 100%;
+    }
+    .css-mhc70k-MuiGrid-root>.MuiGrid-item{
+        padding-left: 0px;
+    }
+    .task8-products-holder{
+        width: 100%;
+    }
+    .css-1d4vqq0-MuiButtonBase-root-MuiListItemButton-root{
+        justify-content: center !important;
+    }
+}
